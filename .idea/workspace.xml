@@ -1,17 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="93364787-d273-4fba-9129-7637466376cd" name="Changes" comment="" />
+    <list default="true" id="93364787-d273-4fba-9129-7637466376cd" name="Changes" comment="Update README.md">
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/employee/EmployeeManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/employee/EmployeeRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/employee/EmployeeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/employee/FullTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/employee/PartTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/library/BookRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/library/BookRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/library/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/shape/ShapeManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/shape/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/student/StudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/student/StudentRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/tutorial/beginner/chapter01_oop/student/StudentRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chung Nguyen Hoai &lt;46637152+nchungdev@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2SLM8VCFurTk0UavyAZaM7dwT42" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,9 +73,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/chungnh/IdeaProjects/java-tutorial/src/com/java/tutorial/beginner/chapter01_oop/shape"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/java/tutorial/beginner" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -46,6 +105,29 @@
       <option name="presentableId" value="Default" />
       <updated>1688921252811</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init project">
+      <option name="closed" value="true" />
+      <created>1688921415088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688921415088</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1688922322837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688922322837</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init project" />
+    <MESSAGE value="Create README.md&#10;&#10;Add table of content" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
 </project>
