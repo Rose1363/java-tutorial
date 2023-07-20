@@ -25,13 +25,13 @@ public class EmployeeManagement {
     }
 
     public void displayEmployeeInformation() {
-        for (Employee employee : employees) {
-            System.out.println(employee);
+        for (int i = 0; i < employees.size(); i++) {
+            System.out.println((i+1) + ". " + employees.get(i));
         }
     }
 
-    public float totalSalary() {
-        float total = 0;
+    public long calculateTotalSalary() {
+        long total = 0;
         for (Employee employee : employees) {
             total += employee.calculateSalary();
         }

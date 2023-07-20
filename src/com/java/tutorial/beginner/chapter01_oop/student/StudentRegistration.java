@@ -6,19 +6,21 @@ import java.util.Scanner;
 
 public class StudentRegistration implements Registration {
     private Student student;
+    private final Scanner sc;
 
-    public StudentRegistration() {
+    public StudentRegistration(Scanner sc) {
+        this.sc = sc;
     }
 
     @Override
     public void registerInfo() {
         Student student = new Student();
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter student's ID: ");
+        sc.nextLine();
+        System.out.println("Nhap ID sinh vien: ");
         student.setId(sc.nextLine());
-        System.out.println("Enter name: ");
+        System.out.println("Nhap ten sinh vien: ");
         student.setName(sc.nextLine());
-        System.out.println("Enter student's gpa: ");
+        System.out.println("Nhap diem trung binh: ");
         student.setGPA(sc.nextFloat());
         this.student = student;
     }

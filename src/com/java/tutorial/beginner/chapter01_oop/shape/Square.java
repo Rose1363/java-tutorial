@@ -4,7 +4,6 @@ public class Square extends Shape {
     private float side;
 
     public Square() {
-        super();
         side = 0;
     }
 
@@ -14,6 +13,12 @@ public class Square extends Shape {
 
     public void setSide(float side) {
         this.side = side;
+    }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "side = " + side + ", ";
     }
 
     public double calculateArea() {

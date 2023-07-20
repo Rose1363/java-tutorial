@@ -15,11 +15,12 @@ public class BookRegistration implements Registration {
     @Override
     public void registerInfo() {
         Book book = new Book();
-        System.out.println("Enter title: ");
+        sc.nextLine();
+        System.out.println("Nhap tua sach: ");
         book.setTitle(sc.nextLine());
-        System.out.println("Enter name's author: ");
+        System.out.println("Nhap ten tac gia: ");
         book.setAuthor(sc.nextLine());
-        System.out.println("Enter year of publication: ");
+        System.out.println("Nhap nam phat hanh sach: ");
         book.setPublishingYear(sc.nextInt());
         this.book = book;
     }

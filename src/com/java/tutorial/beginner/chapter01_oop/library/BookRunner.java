@@ -18,9 +18,11 @@ public class BookRunner implements Runner {
             registration.registerInfo();
             library.add(registration.getBook());
         }
-        sc.nextLine();
-        System.out.println("Sach can tim la" + library.findBook(sc.nextLine()));
         library.displayBook();
-        sc.close();
+        sc.nextLine();
+        System.out.println("Nhap tua hoac tac gia cua sach: ");
+        System.out.println("Sach can tim la: " + library.findBook(sc.nextLine()));
+
+        //sc.close();
     }
 }

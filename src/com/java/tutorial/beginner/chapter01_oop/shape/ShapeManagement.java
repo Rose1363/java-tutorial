@@ -1,26 +1,25 @@
 package com.java.tutorial.beginner.chapter01_oop.shape;
 
+import java.util.ArrayList;
+
 public class ShapeManagement {
-    private int n;
-    private Shape shapeArr[];
+    private ArrayList<Shape> shapes;
 
     public ShapeManagement() {
-        n = 0;
-        shapeArr = new Shape[5];
+        shapes = new ArrayList<>();
     }
 
     public void addShape(Shape shape) {
-        shapeArr[n] = shape;
-        n++;
+        shapes.add(shape);
     }
 
     public void displayShapeInformation() {
-        double area, perimeter;
-        for (Shape s : shapeArr) {
-            if (s == null) break;
-            area = s.calculateArea();
-            perimeter = s.calculatePerimeter();
-            System.out.println("A " + s.name + " with area " + area + " and perimeter " + perimeter);
+        for (int i = 0; i < shapes.size(); i++) {
+            System.out.println((i + 1) + ". "
+                    + shapes.get(i)
+                    + "Area = " + shapes.get(i).calculateArea()
+                    + ", "
+                    + "Perimeter = " + shapes.get(i).calculatePerimeter() + "}");
         }
     }
 }
